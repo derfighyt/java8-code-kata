@@ -1,5 +1,6 @@
 package collection.interfaces;
 
+import com.sun.deploy.util.StringUtils;
 import common.test.tool.annotation.Necessity;
 import common.test.tool.dataset.ClassicOnlineStore;
 import common.test.tool.entity.Customer;
@@ -114,5 +115,7 @@ public class Exercise1Test extends ClassicOnlineStore {
 
         assertThat(nameParallelStream.count(), is(4L));
         assertThat(nameParallelStream.isParallel(), is(true));
+        List <String> list = new ArrayList<>();
+        StringUtils.join(list, ",");
     }
 }

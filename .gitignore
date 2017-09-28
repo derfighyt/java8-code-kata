@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+collection-interfaces/collection-interfaces.iml
+collection-interfaces/target/
+common-test-tool/common-test-tool.iml
+common-test-tool/target/
+date-and-time-api/date-and-time-api.iml
+stream-api/stream-api.iml
